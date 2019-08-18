@@ -20,7 +20,7 @@ pipenv shell
 ### Apply migrations
 
 ```
-python source/manage.py migrate
+python src/manage.py migrate
 ```
 
 ### Running
@@ -28,5 +28,5 @@ python source/manage.py migrate
 Just run this command:
 
 ```
-python source/manage.py runserver
+python src/manage.py runserver
 ```
