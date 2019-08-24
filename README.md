@@ -11,10 +11,11 @@ cd webapp
 ### Install dependencies & activate virtualenv
 
 ```
-pip install pipenv
+python3 -m venv DjangoApp
+source DjangoApp/bin/activate
+pip install django
+pip install django-bootstrap4
 
-pipenv install
-pipenv shell
 ```
 
 ### Apply migrations
